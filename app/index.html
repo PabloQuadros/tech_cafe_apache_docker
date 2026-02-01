@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code & Coffee</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <nav class="navbar">
+        <div class="logo">☕ Code & Coffee</div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#menu">Cardápio</a></li>
+            <li><a href="#contact">Contato</a></li>
+        </ul>
+    </nav>
+
+    <header id="home" class="hero">
+        <div class="hero-content">
+            <h1>O combustível perfeito para o seu código.</h1>
+            <p>Grãos selecionados e torrados artesanalmente para desenvolvedores exigentes.</p>
+            <a href="#menu" class="btn-main">Ver Cardápio</a>
+        </div>
+    </header>
+
+    <section id="menu" class="section">
+        <h2>Nossas Especialidades</h2>
+        <div class="grid-menu">
+            <div class="card">
+                <img src="images/latte.png" alt="Latte Docker" class="card-img">
+                <h3>Latte Docker</h3>
+                <p>Textura suave, isolada em camadas perfeitas.</p>
+                <span>R$ 14,00</span>
+            </div>
+            <div class="card">
+                <img src="images/expresso.png" alt="Expresso Git" class="card-img">
+                <h3>Expresso Git</h3>
+                <p>Forte, rápido e direto ao ponto. Sem conflitos.</p>
+                <span>R$ 8,00</span>
+            </div>
+            <div class="card">
+                <img src="images/mocha.png" alt="Script Mocha" class="card-img">
+                <h3>Script Mocha</h3>
+                <p>A doçura do chocolate com a energia do café.</p>
+                <span>R$ 16,00</span>
+            </div>
+            <div class="card">
+                <img src="images/capuccino.png" alt="Capuccino Fullstack" class="card-img">
+                <h3>Capuccino Fullstack</h3>
+                <p>A mistura completa: café, leite e espuma cremosa.</p>
+                <span>R$ 15,00</span>
+            </div>
+            <div class="card">
+                <img src="images/macchiato.png" alt="Macchiato Markdown" class="card-img">
+                <h3>Macchiato Markdown</h3>
+                <p>Manchado com precisão para um sabor estruturado.</p>
+                <span>R$ 12,00</span>
+            </div>
+            <div class="card">
+                <img src="images/americano.png" alt="Americano Agile" class="card-img">
+                <h3>Americano Agile</h3>
+                <p>Leve, fluido e pronto para qualquer entrega.</p>
+                <span>R$ 10,00</span>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contact">
+        <p>&copy; 2026 Code & Coffee - Rodando em um Container Apache</p>
+    </footer>
+
+    <div id="overlay-preparation" class="overlay hidden">
+        <div class="coffee-machine">
+            <div class="strainer"></div>
+            <div class="coffee-falling"></div>
+            <div class="cup"></div>
+        </div>
+            <h2>Preparando seu café...</h2>
+    </div>
+
+    <script src="script.js"></script>   
+    </body>
+</html>
