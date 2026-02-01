@@ -1,24 +1,30 @@
-# ☕ Café Tech - Landing Page em Container Apache
+# ☕ Tech Café - Apache Container Landing Page
 
-Este projeto é uma Landing Page de uma cafeteria gourmet, desenvolvida para praticar conhecimentos em desenvolvimento front-end e orquestração de containers com Docker.
+This project is a landing page for a gourmet coffee shop, developed to practice front-end development skills and container orchestration with Docker.
 
-## 🚀 Tecnologias Utilizadas
+<br>
 
-* **Docker & Docker Compose**: Para containerização e isolamento do ambiente.
-* **Apache HTTP Server (httpd)**: Servidor web de alta performance para hospedar a aplicação.
-* **HTML5 & CSS3**: Estrutura semântica, layout e estilização.
-* **JavaScript**: Lógica de interação para a simulação de preparo de café e navegação suave.
+## 🚀 Technologies Used
 
-## 🛠️ Arquitetura do Projeto
+* **Docker & Docker Compose:** For containerization and environment isolation.
+* **Apache HTTP Server (httpd):** High-performance web server to host the application.
+* **HTML5 & CSS3:** Semantic structure, layout, and styling.
+* **JavaScript:** Interaction logic for the coffee preparation simulation and smooth navigation.
 
-A aplicação roda dentro de um container Docker utilizando a imagem oficial do Apache. O volume está mapeado para que qualquer alteração no código local seja refletida instantaneamente no servidor.
+<br>
 
-> **Nota sobre o Volume:** Caso as alterações não apareçam instantaneamente, utilize `Ctrl + F5` no seu navegador para limpar o cache. O mapeamento de volume garante que você não precise reiniciar o container para ver mudanças de estilo ou estrutura.
+## 🛠️ Project Architecture
 
-## 🔧 Como Executar
+The application runs inside a Docker container using the official Apache image. The volume is mapped so that any changes to the local code are instantly reflected on the server.
 
-1. Certifique-se de ter o **Docker** e o **Docker Compose** instalados.
-2. Clone este repositório.
-3. No terminal, dentro da pasta do projeto, execute:
+> **Note on Volume:** If changes do not appear instantly, use `Ctrl + F5` in your browser to clear the cache. Volume mapping ensures that you don't need to restart the container to see style or structure updates.
+
+<br>
+
+## 🔧 How to Run
+
+1. Make sure you have **Docker** and **Docker Compose** installed.
+2. Clone this repository.
+3. In the terminal, inside the project folder, run:
    ```bash
    docker-compose up -d
